@@ -1,0 +1,28 @@
+# Core LLM + LangChain ecosystem
+langgraph
+langchain>=1.0
+langchain-core>=1.0
+langchain-community>=0.4.2
+langchain-openai==1.2.1
+langgraph-checkpoint-sqlite==3.1.0
+langchain-tavily==0.2.18
+langchain-text-splitters==1.1.2
+
+# Vector store and PDF loading
+faiss-cpu==1.14.3
+pypdf==6.13.2
+fastembed
+
+# Frontend
+streamlit>=1.0.0
+
+# Search and HTTP
+tavily-python>=0.7.26
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+readability-lxml
+trafilatura
+lxml>=5.0.0
+
+# Environment
+python-dotenv>=1.0.0

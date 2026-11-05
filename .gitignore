@@ -1,3 +1,12 @@
-.venv
-.env
-workflows/
+# Only the standalone LangGraph chatbot project is tracked from now on.
+# Everything else at the repository root is ignored, including the old
+# AGENTIC_CHATBOT experiments and local editor/tooling folders.
+/*
+!/.gitignore
+!/AGENTIC_CHATBOT_WITH_LANGGRAPH/
+
+# Common Python/runtime artefacts (also ignored inside the project).
+__pycache__/
+*.py[cod]
+.venv/
+venv/

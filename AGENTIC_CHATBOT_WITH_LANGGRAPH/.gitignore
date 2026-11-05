@@ -1,0 +1,20 @@
+# secrets
+.env
+
+# runtime artefacts (the app recreates these)
+faiss_db/
+documents/
+faiss_index/
+chatbot_conversations.db
+chatbot_conversations.db-shm
+chatbot_conversations.db-wal
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Streamlit
+.streamlit/secrets.toml
